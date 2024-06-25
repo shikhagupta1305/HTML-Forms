@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML FORM</title>
+    <link rel="stylesheet" href="Form.css">
+</head>
+<body>
+    <main class="Gupta">
+    <h1 style="color:darkred;" class="Shikha">Registration Form</h1>
+    <form>
+        <div>
+            <label for="name">Name</label>
+
+            <input type="text" name="myname" id="name" style="background-color: rgb(221, 255, 0);" >
+        </div>
+        <br> 
+           <div>
+             <label for="father's name"> Father's Name</label>
+              <input type="text" name="fname" id="father's name" style="background-color: rgb(221, 255, 0);">
+           </div> <br>
+           <div>
+             <label for="mother's name">Mother's Name</label>
+               <input type="text" name="mname" id="mother's name" style="background-color: rgb(221, 255, 0);">
+           </div>  <br>
+           <div>
+             <label for="gender">Gender:</label>
+                Male <input type="radio" name="my gender" id="gender" > Female <input type="radio" name="my gender" id="gender">  
+                Other <input type="radio" name="my gender" id="gender">
+           </div>  <br>
+           <div>
+             <label for="date">Date</label>
+               <input type="date" name="mydob" id="date" style="background-color: rgb(221, 255, 0);">
+           </div> <br>
+             <label for="city">City</label>
+                <select name="mycity" id="city" style="background-color: rgb(221, 255, 0);">
+                  <option value="Batauli">Batauli</option>
+                  <option value="Ambikapur">Ambikapur</option>
+                  <option value="Surajpur">Surajpur</option>
+                  <option value="Balrampur">Balrampur</option>
+                  <option value="Lakhanpur">Lakhanpur</option>
+                  <option value="Jashpur">Jashpur</option>
+                  <option value="Raghunathpur">Raghunathpur</option>
+                  <option value="Raajpur">Raajpur</option>
+               </select>
+              <br> <br> 
+         <div>
+             Write about yourself:<br>
+             <textarea name="my text" cols="60" rows="10" style="background-color: rgb(221, 255, 0);"></textarea> 
+         </div>
+         <br>
+         <label for="hobby">Hobbies:</label>
+            Playing <input type="checkbox" name="Hob" id="hobby"> Music<input type="checkbox" name="Hob" id="hobby">
+            Dancing<input type="checkbox" name="Hob" id="hobby"> Reading<input type="checkbox" name="Hob" id="hobby">
+            Gardening<input type="checkbox" name="Hob" id="hobby"> Photography<input type="checkbox" name="Hob" id="hobby">
+         <br> <br>
+         <div>
+             <label for="no">Mobile No.</label>
+              <input type="number" name="Mob" id="no" style="background-color: rgb(221, 255, 0);">
+         </div>
+          <br>
+         <div>
+             <label for="email">Email Id:</label>
+             <input type="email" name="mail" id="email" style="background-color: rgb(221, 255, 0);">
+         </div>
+          <br>
+         <div>
+             <label for="pass">Email Id Password:</label>
+             <input type="password" name=" pass" id="pass" style="background-color: rgb(221, 255, 0);">
+         </div>
+         <br>
+         <div>
+             <input type="submit" value="Submit" style="background-color: green">
+             <input type="reset" value="Reset" style="background-color: red;">
+         </div>
+
+ </form>
+ </main>
+
+</body>
+</html>
